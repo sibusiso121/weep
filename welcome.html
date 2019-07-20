@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+
+	<link rel="stylesheet" href="index.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="themes/app0122.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="js/jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jssor.slider-21.1.5.mini.js"></script>
+	<style type="text/css">
+	.ui-page {
+		background: transparent url(images/dotmp3.png);
+		width: 100%;
+		background-repeat:repeat !important;
+		background-size:100% 100% !important;
+	
+	}
+	</style>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+</head>
+<body>
+
+<div data-role="page" data-position="fixed" data-theme="a">
+
+	<div data-role="header">
+		<h1><font face="ink free">Weep</font></h1>
+		<a href="#user" class="ui-btn ui-icon-user ui-btn-icon-notext ui-corner-all " >Notext</a>
+
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<center><p><font face="ink free"><h3>Welcome to Weep</h3></font></p></center>
+	
+	    <!-- use jssor.slider-21.1.5.debug.js instead for debug -->
+    <script>
+        jQuery(document).ready(function ($) {
+            
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+            
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 10,
+                $SpacingX: 8,
+                $SpacingY: 8,
+                $Align: 360
+              }
+            };
+            
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizing
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 800);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            //responsive code end
+        });
+    </script>
+	<br>
+	
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: -16px; width: 800px; height: 456px; overflow: hidden; visibility: hidden; background-color: #24262e;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+		
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 455px; overflow: hidden;">
+            <div data-p="144.50" style="display: none;">
+                <img data-u="image" src="images/01.jpg" />
+            </div>
+            <div data-p="144.50" style="display: none;">
+                <img data-u="image" src="images/02.jpg" />
+
+            </div>	
+        
+            <a data-u="any" href="http://www.jssor.com/demos/image-gallery.slider" style="display:none">Image Gallery</a>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort01" style="position:absolute;left:0px;bottom:0px;width:800px;height:100px;" data-autocenter="1">
+            <!-- Thumbnail Item Skin Begin -->
+            <div data-u="slides" style="cursor: default;">
+                <div data-u="prototype" class="p">
+                    <div class="w">
+                        <div data-u="thumbnailtemplate" class="t"></div>
+                    </div>
+                    <div class="c"></div>
+                </div>
+            </div>
+			
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora05l" style="top:158px;left:8px;width:40px;height:40px;"></span>
+        <span data-u="arrowright" class="jssora05r" style="top:158px;right:8px;width:40px;height:40px;"></span>
+    </div>
+	<br>
+	<br>	<ul data-role="listview">  <li>   <a href="#about" data-transition="slidefade">  <img src="images/pic2.jpg" />   <h3><font face="ink free">About Us</font></h3>   <p>Start Here..</p>  </a>   </b></li>   </ul>
+	<br><br>	
+		<ul data-role="listview"> <li><a href="buy.php" target="_buy.php" >   <img src="images/pic.jpg" />   <h3><font face="ink free">Buy Now</font></h3>   <p>Order and  get delivery free..</p>  </a>  </li>  </ul> 
+		<br><br>	
+		
+		<ul data-role="listview"> <a href="message.php"  target="_message.php"data-transition="slidefade"> <li>   <img src="images/pic3.jpg" />   <h3><font face="ink free">Send  Message</font></h3>   <p>Talk to us..</p>  </a> <p></p>  </li>   </ul> 	
+
+	</div><!-- /content -->
+	
+	<div data-role="panel" id="user" data-theme="a">
+		<br><br>
+		
+		<a href="buy.php"></a>
+		
+								<script language="javascript" type="text/javascript">
+										
+											function LogIn(){
+											loggedin=false;
+									
+											password="";
+											id="";
+											username=prompt("Username:","");
+										
+											id=id.toLowerCase();
+											if  (username=="admin1" ){
+											loggedin=true;
+											window.location="clients.php";
+											}
+											
+											if (loggedin==false) {
+											alert("Invalid login!");
+											}
+											}
+											
+								</script>
+								<center>
+
+									<form><input type="button" value="Login!" onClick="LogIn()"></form>
+								
+								</center>	
+
+						<center><P><u><b><font face="Bell MT">Note:</font></b></u></p></center>
+						
+						<p><font face="ink free">This Section if for private access only.</font></p>
+						
+						
+	</div>
+	
+	<div data-role="footer" data-position="fixed" data-theme="a">
+		<h4><font face="Bell MT">Copyright &copy Private App 2019.</font></h4>
+	</div><!-- /footer -->
+
+	
+	
+</div>
+
+	<div data-role="page" id="about" data-theme="a">
+			<div data-role="header" data-position="fixed">
+				<h3><font face="ink free">About us</font></h3>
+				<a href="index.html" data-rel="back" data-icon="back" data-iconpos="notext" data-transition="slidefade"></a>
+			</div>
+			<div data-role="content" class="ui-content">	
+
+			<p><u><font face="ink free"><h2>What is weep</h2></font></u><p>
+				<font face="ink free">Weep is a new online  application for ordering and delivering weed at your door step.</font>
+			
+			<p><u><font face="ink free"><h2>Why us</h2></font></u><p>	
+
+			<font face="ink free">We value our customers not to walk distance let weed come to you.</font>
+			<br>
+			<font face="ink free">We deliver in time safe and secure.</font>
+			<br>
+			<font face="ink free">Our customers should be Protected not arrested.</font>
+			<p><u><font face="ink free"><h2>What type of weed are we selling</h2></font></u><p>
+			 <font face="ink free"><p><u>power plant</u></font></p>
+			
+			<p><font face="ink free">Power Plant® is rich in THC and delivers a formidable strong „up‟ high with a fresh flavour, smooth/soft smoke and sweet after- taste.</p></font>
+			<p><u><font face="ink free"><h2>Working Hours</h2></font></u><p>
+			
+			<p><font face="ink free">Mon - Fri</font></p>
+			<p><font face="ink free">06am:11pm</font></p>
+			
+			<p><font face="ink free">Sat - Sun</font></p>
+			<p><font face="ink free">06am:11pm</font></p>
+			<p></p>
+			
+			<p><u><font face="ink free"><h2>Pricing</h2></font></u><p>
+			
+			<div class="columns">
+			  <ul class="price">
+				<li class="header"><font face="ink free">power Plan</font></li>
+				<li class="grey"><font face="ink free">R50.00</font></li>
+				<li><font face="ink free">High HTC</font></li>
+				<li><font face="ink free">Smooth/Soft</font></li>
+				
+			<a href="buy.php" target="_buy.php"ata-transition="slidefade"><button>Order here</button></a>
+			  </ul>
+			</div>
+			
+			</div>
+			
+		<div data-role="footer" data-position="fixed" data-theme="a">
+		<h4><font face="Bell MT">Copyright &copy Private App 2019.</font></h4>
+	</div><!-- /footer -->	
+	</div>
+
+
+
+</body>
+</html>
