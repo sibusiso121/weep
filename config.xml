@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.sibusiso.mamelodisundowns"
+        versionCode = "1.0" 
+        version     = "1.0.0" >
+
+		<!-- versionCode is optional and Android only -->
+
+		<name>Shado</name>
+
+		<description>
+			Developed and Design by Sibusiso Mthimunye 
+		</description>
+
+		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
+			Sibusiso Mthimunye
+		</author>
+
+		
+		<feature name="SocialSharing">
+			<param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+		</feature>
+
+		
+		<feature name="SocialSharing">
+			<param name="wp-package" value="SocialSharing"/>
+			
+		</feature>
+		
+
+		
+		<icon src="picl.jpg" gap:platform="android" gap:qualifier="ldpi" />
+		<icon src="pich.png" gap:platform="android" gap:qualifier="mdpi" />
+		<icon src="pich.png" gap:platform="android" gap:qualifier="hdpi" />
+		<icon src="pich.png" gap:platform="android" gap:qualifier="xhdpi" />
+		<icon src="pich.png" gap:platform="android" gap:qualifier="xxhdpi" />
+
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		<gap:platform name="winphone" />
+		
+		<feature name="debug-server" required="true">
+			<param name="domain" value="http://debug.custom.com"/>
+			<param name="key" value="some_unique_key"/>
+		</feature>
+
+		<gap:splash src="icon/splash.jpg" />
+		<gap:splash src="icon/splash1.jpg" width="320" height="480" />
+		<gap:splash src="icon/splash2.jpg" width="640" height="960" />
+		<gap:splash src="icon/splash3.jpg" width="768" height="1024" />
+		
+	</widget>
