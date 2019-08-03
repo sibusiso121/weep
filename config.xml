@@ -27,10 +27,6 @@
 			<param name="wp-package" value="SocialSharing"/>
 			
 		</feature>
-		
-
-		
-		
 
 		<gap:platform name="ios" />
 		<gap:platform name="android" />
@@ -41,11 +37,6 @@
 			<param name="key" value="some_unique_key"/>
 		</feature>
 
-		<gap:splash src="icon/splash.jpg" />
-		<gap:splash src="icon/splash1.jpg" width="320" height="480" />
-		<gap:splash src="icon/splash2.jpg" width="640" height="960" />
-		<gap:splash src="icon/splash3.jpg" width="768" height="1024" />
-		<plugin name="cordova-plugin-battery-status" spec="~2.0.3" />
 <plugin name="cordova-plugin-camera" spec="~4.1.0" />
 <plugin name="cordova-plugin-console" spec="~1.1.0" />
 <plugin name="cordova-plugin-contacts" spec="~3.0.1" />
