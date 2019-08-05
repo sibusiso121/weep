@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.sibusiso.mamelodisundowns"
+        id          = "com.sibusiso.weep"
         versionCode = "1.0" 
         version     = "1.0.0" >
 
@@ -16,9 +16,6 @@
 		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
 			Sibusiso Mthimunye
 		</author>
-
-		
-	
 
 		<gap:platform name="ios" />
 		<gap:platform name="android" />
