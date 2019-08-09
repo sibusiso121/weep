@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Weep</title>
+
+	<link rel="stylesheet" href="index.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="themes/app0122.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="js/jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="phonegap.js"></script>
+	<script src="cordova.js"></script>
+
+</head>
+</head>
+<body>
+
+
+<div data-role="page" data-position="fixed" data-theme="a">
+
+	<div data-role="header">
+		<h1><font face="ink free">Weep</font></h1>
+		<a href="#user" class="ui-btn ui-icon-user ui-btn-icon-notext ui-corner-all " >Notext</a>
+		
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<center><p><font face="ink free"><h3>Welcome to Weep</h3></font></p></center>
+	
+	    <!-- use jssor.slider-21.1.5.debug.js instead for debug -->
+	<center><img src="01.jpg"></center>
+	<br>
+	<br>	<ul data-role="listview">  <li>   <a href="#about" data-transition="slidefade">  <img src="pic2.jpg" />   <h3><font face="ink free">About Us</font></h3>   <p>Start Here..</p>  </a>   </b></li>   </ul>
+	<br><br>	
+		<ul data-role="listview"> <li><a href="buy.php" target="_buy.php" >   <img src="pic.jpg" />   <h3><font face="ink free">Buy Now</font></h3>   <p>Order and  get delivery free..</p>  </a>  </li>  </ul> 
+		<br><br>	
+		
+		<ul data-role="listview"> <a href="message.php"  target="_message.php"data-transition="slidefade"> <li>   <img src="pic3.jpg" />   <h3><font face="ink free">Send  Message</font></h3>   <p>Talk to us..</p>  </a> <p></p>  </li>   </ul> 	
+
+	</div><!-- /content -->
+	
+	<div data-role="panel" id="user" data-theme="a">
+		<br><br>
+
+								<script language="javascript" type="text/javascript">
+										
+											function LogIn(){
+											loggedin=false;
+									
+											password="";
+											id="";
+											username=prompt("Username:","");
+										
+											id=id.toLowerCase();
+											if  (username=="admin1" ){
+											loggedin=true;
+											window.location="clients.php" 
+											;
+											}
+											
+											if (loggedin==false) {
+											alert("Invalid login!");
+											}
+											}
+											
+								</script>
+								<center>
+
+									<form><input type="button" value="Login!" onClick="LogIn()"></form>
+								
+								</center>	
+		
+						<center><P><u><b><font face="Bell MT">Note: Clients Orders</font></b></u></p></center>
+					
+						<p><font face="ink free">This Section if for private access only.</font></p>
+				
+	</div>
+	
+	
+	
+	<div data-role="footer" data-position="fixed" data-theme="a">
+		<h4><font face="Bell MT">Copyright &copy Private App 2019.</font></h4>
+	</div><!-- /footer -->
+
+</div>
+
+	<div data-role="page" id="about" data-theme="a">
+			<div data-role="header" data-position="fixed">
+				<h3><font face="ink free">About us</font></h3>
+				<a href="index.html" data-rel="back" data-icon="back" data-iconpos="notext" data-transition="slidefade"></a>
+			</div>
+			<div data-role="content" class="ui-content">	
+
+			<p><u><font face="ink free"><h2>What is weep?</h2></font></u><p>
+				<font face="ink free">Weep is a new online  application for ordering and delivering weed at your door step.</font>
+			
+			<p><u><font face="ink free"><h2>Why us?</h2></font></u><p>	
+
+			<font face="ink free">We value our customers not to walk distance let weed come to you.</font>
+			<br>
+			<font face="ink free">We deliver in time safe and secure.</font>
+			<br>
+			<font face="ink free">Our customers should be Protected not arrested.</font>
+			<p><u><font face="ink free"><h2>What type of weed are we selling?</h2></font></u><p>
+			 <font face="ink free"><p><u>power plant</u></font></p>
+			
+			<p><font face="ink free">Power Plant® is rich in THC and delivers a formidable strong „up‟ high with a fresh flavour, smooth/soft smoke and sweet after- taste.</p></font>
+			<p><u><font face="ink free"><h2>Working Hours</h2></font></u><p>
+			
+			<p><font face="ink free">Mon - Fri</font></p>
+			<p><font face="ink free">06am:11pm</font></p>
+			
+			<p><font face="ink free">Sat - Sun</font></p>
+			<p><font face="ink free">06am:11pm</font></p>
+			<p></p>
+			
+			<p><u><font face="ink free"><h2>Pricing</h2></font></u><p>
+			
+			<div class="columns">
+			  <ul class="price">
+				<li class="header"><font face="ink free">power Plan</font></li>
+				<li class="grey"><font face="ink free">R50.00</font></li>
+				<li><font face="ink free">High HTC</font></li>
+				<li><font face="ink free">Smooth/Soft</font></li>
+				
+			<a href="buy.php" target="_buy.php"ata-transition="slidefade"><button>Order here</button></a>
+			  </ul>
+			</div>
+			
+			</div>
+			
+		<div data-role="footer" data-position="fixed" data-theme="a">
+		<h4><font face="Bell MT">Copyright &copy Private App 2019.</font></h4>
+	</div><!-- /footer -->	
+	</div>
+
+</body>
+</html>
