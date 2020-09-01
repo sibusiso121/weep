@@ -16,11 +16,6 @@
 		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
 			Sibusiso we code
 		</author>
-	
-		
-		<feature name="SocialSharing">
-			<param name="ios-package" value="SocialSharing" />
-		</feature>
 
 		
 		<feature name="SocialSharing">
