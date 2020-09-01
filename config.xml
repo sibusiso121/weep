@@ -16,14 +16,9 @@
 		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
 			Sibusiso we code
 		</author>
-
-
-		
-		<icon src="picl.jpg" gap:platform="android" gap:qualifier="ldpi" />
-		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="mdpi" />
-		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="hdpi" />
-		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="xhdpi" />
-		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="xxhdpi" />
+<config-file platform="android" parent="/manifest">
+    <uses-sdk tools:overrideLibrary="org.apache.cordova,com.library.plugin" />
+</config-file>
 
 			<feature name="SocialSharing">
   				<param name="ios-package" value="SocialSharing" />
