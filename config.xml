@@ -3,7 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/6.0.0"
         id          = "com.sibusiso.weep"
         versionCode = "1.0" 
-        version     = "1.0.0" >
+        version     = "6.0.0" >
 
 		<!-- versionCode is optional and Android only -->
 
@@ -37,7 +37,7 @@
 	    <script type="text/javascript" src="js/SocialSharing.js"></script>
 	    
 	    <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
-	 
+	 <gap:plugin name="org.apache.cordova.file" />
 		
 		
 		<gap:platform name="ios" />
