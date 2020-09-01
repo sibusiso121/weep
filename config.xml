@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.sibusiso.mamelodisundowns"
+        id          = "com.sibusiso.weep"
         versionCode = "1.0" 
         version     = "1.0.0" >
 
@@ -17,15 +17,7 @@
 			Sibusiso we code
 		</author>
 
-		
-		<feature name="SocialSharing">
-			<param name="android-package" value="nl.xservices.plugins.SocialSharing" />
-		</feature>
 
-		
-		<feature name="SocialSharing">
-			<param name="wp-package" value="SocialSharing"/>
-		</feature>
 		
 		<icon src="picl.jpg" gap:platform="android" gap:qualifier="ldpi" />
 		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="mdpi" />
