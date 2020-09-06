@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
+<<<<<<< HEAD
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+=======
         xmlns:gap   = "http://phonegap.com/ns/6.0.0"
+>>>>>>> 1316fe8cf8c79ec5d0d8cfabdc57a52ca39e6061
         id          = "com.sibusiso.weep"
         versionCode = "1.0" 
         version     = "6.0.0" >
@@ -10,11 +14,11 @@
 		<name>Weep</name>
 
 		<description>
-			Developed and Design by we code 
+			Developed and Design by we Code 
 		</description>
 
 		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
-			Sibusiso we code
+			We Code
 		</author>
 <config-file platform="android" parent="/manifest">
     <uses-sdk tools:overrideLibrary="org.apache.cordova,com.library.plugin" />
@@ -39,6 +43,18 @@
 	    <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
 	 <gap:plugin name="org.apache.cordova.file" />
 		
+<<<<<<< HEAD
+	
+		
+		<icon src="picl.jpg" gap:platform="android" gap:qualifier="ldpi" />
+		<icon src="pic1.png" gap:platform="android" gap:qualifier="mdpi" />
+		<icon src="pic1.png" gap:platform="android" gap:qualifier="hdpi" />
+		<icon src="pic1.png" gap:platform="android" gap:qualifier="xhdpi" />
+		<icon src="pic1.png" gap:platform="android" gap:qualifier="xxhdpi" />
+
+		
+=======
+>>>>>>> 1316fe8cf8c79ec5d0d8cfabdc57a52ca39e6061
 		
 		<gap:platform name="ios" />
 		<gap:platform name="android" />
@@ -49,9 +65,11 @@
 			<param name="key" value="some_unique_key"/>
 		</feature>
 
-		<gap:splash src="splash.jpg" />
-		<gap:splash src="splash1.jpg" width="320" height="480" />
-		<gap:splash src="splash2.jpg" width="640" height="960" />
-		<gap:splash src="splash3.jpg" width="768" height="1024" />
+		<gap:splash src="icon/splash.jpg" />
+		<gap:splash src="icon/splash1.jpg" width="320" height="480" />
+		<gap:splash src="icon/splash2.jpg" width="640" height="960" />
+		<gap:splash src="icon/splash3.jpg" width="768" height="1024" />
 		
 	</widget>
+
+
