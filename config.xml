@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.sibusiso.mamelodisundowns"
+        id          = "com.sibusiso.weep"
         versionCode = "1.0" 
         version     = "1.0.0" >
 
@@ -10,35 +10,23 @@
 		<name>Weep</name>
 
 		<description>
-			Developed and Design by we code 
+			Developed and Design by we Code 
 		</description>
 
 		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
-			Sibusiso we code
+			We Code
 		</author>
 	
 		
-		<feature name="SocialSharing">
-			<param name="ios-package" value="SocialSharing" />
-		</feature>
-
-		
-		<feature name="SocialSharing">
-			<param name="android-package" value="nl.xservices.plugins.SocialSharing" />
-		</feature>
-
-		
-		<feature name="SocialSharing">
-			<param name="wp-package" value="SocialSharing"/>
-		</feature>
+	
 		
 		<icon src="picl.jpg" gap:platform="android" gap:qualifier="ldpi" />
-		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="mdpi" />
-		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="hdpi" />
-		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="xhdpi" />
-		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="xxhdpi" />
+		<icon src="pic1.png" gap:platform="android" gap:qualifier="mdpi" />
+		<icon src="pic1.png" gap:platform="android" gap:qualifier="hdpi" />
+		<icon src="pic1.png" gap:platform="android" gap:qualifier="xhdpi" />
+		<icon src="pic1.png" gap:platform="android" gap:qualifier="xxhdpi" />
 
-		<gap:plugin name="nl.x-services.plugins.socialsharing" source="plugins.cordova.io" />
+		
 		
 		<gap:platform name="ios" />
 		<gap:platform name="android" />
@@ -49,9 +37,9 @@
 			<param name="key" value="some_unique_key"/>
 		</feature>
 
-		<gap:splash src="splash.jpg" />
-		<gap:splash src="splash1.jpg" width="320" height="480" />
-		<gap:splash src="splash2.jpg" width="640" height="960" />
-		<gap:splash src="splash3.jpg" width="768" height="1024" />
+		<gap:splash src="icon/splash.jpg" />
+		<gap:splash src="icon/splash1.jpg" width="320" height="480" />
+		<gap:splash src="icon/splash2.jpg" width="640" height="960" />
+		<gap:splash src="icon/splash3.jpg" width="768" height="1024" />
 		
 	</widget>
