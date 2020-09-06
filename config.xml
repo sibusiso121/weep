@@ -38,7 +38,7 @@
 		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="xhdpi" />
 		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="xxhdpi" />
 
-		<gap:plugin name="nl.x-services.plugins.socialsharing" source="plugins.cordova.io" />
+	
 		
 		<gap:platform name="ios" />
 		<gap:platform name="android" />
