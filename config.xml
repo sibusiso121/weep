@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
-<<<<<<< HEAD
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-=======
-        xmlns:gap   = "http://phonegap.com/ns/6.0.0"
->>>>>>> 1316fe8cf8c79ec5d0d8cfabdc57a52ca39e6061
         id          = "com.sibusiso.weep"
         versionCode = "1.0" 
-        version     = "6.0.0" >
+        version     = "1.0.0" >
 
 		<!-- versionCode is optional and Android only -->
 
 		<name>Weep</name>
 
 		<description>
-			Developed and Design by we Code 
+			Developed and Design by we code 
 		</description>
 
 		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
-			We Code
+			 we code
 		</author>
+	
+		
 <config-file platform="android" parent="/manifest">
     <uses-sdk tools:overrideLibrary="org.apache.cordova,com.library.plugin" />
 </config-file>
