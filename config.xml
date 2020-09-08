@@ -26,13 +26,15 @@
 <<<<<<< HEAD
 			We Code
 =======
-			
+			 we code
 >>>>>>> b1dd9a95229673f4b943bc8fe1c34cd39b3084ca
 		</author>
 	
 		
-
-
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>>
+	
 		
 		<icon src="picl.jpg" gap:platform="android" gap:qualifier="ldpi" />
 		<icon src="pic1.png" gap:platform="android" gap:qualifier="mdpi" />
@@ -83,6 +85,15 @@
 		
 	</widget>
 
+
+
+
+
+
+
+	
+	
+	
 
 
 
