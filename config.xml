@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
-<<<<<<< HEAD
-<<<<<<< HEAD
-        xmlns:gap   = "http://phonegap.com/ns/1.0
-=======
-        
->>>>>>> 1316fe8cf8c79ec5d0d8cfabdc57a52ca39e6061
-        id          = "com.sibusiso.weep"
-=======
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.sibusiso.mamelodisundowns"
-
+        id          = "com.sibusiso.weep"
         versionCode = "1.0" 
         version     = "1.0.0" >
 
@@ -19,33 +10,14 @@
 		<name>Weep</name>
 
 		<description>
-			Developed and Design by we Code 
+			Developed and Design by we code 
 		</description>
 
 		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
-<<<<<<< HEAD
-			We Code
-=======
 			 we code
->>>>>>> b1dd9a95229673f4b943bc8fe1c34cd39b3084ca
 		</author>
 	
 		
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>>
-	
-		
-		<icon src="picl.jpg" gap:platform="android" gap:qualifier="ldpi" />
-		<icon src="pic1.png" gap:platform="android" gap:qualifier="mdpi" />
-		<icon src="pic1.png" gap:platform="android" gap:qualifier="hdpi" />
-		<icon src="pic1.png" gap:platform="android" gap:qualifier="xhdpi" />
-		<icon src="pic1.png" gap:platform="android" gap:qualifier="xxhdpi" />
-
-		
-=======
->>>>>>> 1316fe8cf8c79ec5d0d8cfabdc57a52ca39e6061
-=======
 		<feature name="SocialSharing">
 			<param name="ios-package" value="SocialSharing" />
 		</feature>
@@ -66,8 +38,7 @@
 		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="xhdpi" />
 		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="xxhdpi" />
 
-	
->>>>>>> b1dd9a95229673f4b943bc8fe1c34cd39b3084ca
+
 		
 		<gap:platform name="ios" />
 		<gap:platform name="android" />
@@ -85,14 +56,6 @@
 		
 	</widget>
 
-
-
-
-
-
-
-	
-	
 	
 
 
