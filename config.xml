@@ -3,26 +3,18 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.sibusiso.weep"
         versionCode = "2.0" 
-        version     = "2.0.0" >
+        version     = "1.0.0" >
 
 		<!-- versionCode is optional and Android only -->
 
 		<name>Weep</name>
 
 		<description>
-<<<<<<< HEAD
 			Developed and Design by We Code Company
 		</description>
 
 		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
 			We Code
-=======
-			Developed and Design by we code 
-		</description>
-
-		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
-			 we code
->>>>>>> 8421922414b0c189cf8e11fcc2903f294a591697
 		</author>
 	
 		
@@ -46,11 +38,7 @@
 		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="xhdpi" />
 		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="xxhdpi" />
 
-<<<<<<< HEAD
 		
-=======
-
->>>>>>> 8421922414b0c189cf8e11fcc2903f294a591697
 		
 		<gap:platform name="ios" />
 		<gap:platform name="android" />
@@ -67,8 +55,6 @@
 		<gap:splash src="splash3.jpg" width="768" height="1024" />
 		
 	</widget>
-<<<<<<< HEAD
-=======
 
 	
 
