@@ -13,24 +13,10 @@
 			Developed and Design by We Code Company
 		</description>
 
-		<author href="https://build.phonegap.com" email="sibusiso_ppsd@yahoo.com">
+		<author href="https://build.phonegap.com" email="sibusiso@weep.co.za">
 			We Code
 		</author>
 	
-		
-		<feature name="SocialSharing">
-			<param name="ios-package" value="SocialSharing" />
-		</feature>
-
-		
-		<feature name="SocialSharing">
-			<param name="android-package" value="nl.xservices.plugins.SocialSharing" />
-		</feature>
-
-		
-		<feature name="SocialSharing">
-			<param name="wp-package" value="SocialSharing"/>
-		</feature>
 		
 		<icon src="picl.jpg" gap:platform="android" gap:qualifier="ldpi" />
 		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="mdpi" />
