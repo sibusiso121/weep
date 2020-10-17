@@ -2,21 +2,35 @@
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.sibusiso.weep"
-        versionCode = "2.0" 
+        versionCode = "1.0" 
         version     = "1.0.0" >
 
 		<!-- versionCode is optional and Android only -->
 
-		<name>Weep</name>
+		<name>mamelodisundowns</name>
 
 		<description>
-			Developed and Design by We Code Company
+			Developed and Design by Sibusiso Weep
 		</description>
 
 		<author href="https://build.phonegap.com" email="sibusiso@weep.co.za">
-			We Code
+			Sibusiso Mthimunye
 		</author>
 	
+		
+		<feature name="SocialSharing">
+			<param name="ios-package" value="SocialSharing" />
+		</feature>
+
+		
+		<feature name="SocialSharing">
+			<param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+		</feature>
+
+		
+		<feature name="SocialSharing">
+			<param name="wp-package" value="SocialSharing"/>
+		</feature>
 		
 		<icon src="picl.jpg" gap:platform="android" gap:qualifier="ldpi" />
 		<icon src="pic1.jpg" gap:platform="android" gap:qualifier="mdpi" />
@@ -35,29 +49,10 @@
 			<param name="key" value="some_unique_key"/>
 		</feature>
 
-		<gap:splash src="splash0.jpg" />
+		<gap:splash src="splash.jpg" />
 		<gap:splash src="splash1.jpg" width="320" height="480" />
 		<gap:splash src="splash2.jpg" width="640" height="960" />
 		<gap:splash src="splash3.jpg" width="768" height="1024" />
 		
 	</widget>
 
-	
-
-
-
-
-
-
-	
-	
-	
-	
-	
-
-
-
-
-
-
->>>>>>> 8421922414b0c189cf8e11fcc2903f294a591697
